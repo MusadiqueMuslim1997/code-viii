@@ -208,7 +208,7 @@ header {
     top: 0;
     position: fixed;
     z-index: 1;
-    background-color: whitesmoke;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
     padding: 10px;
 
 }
@@ -329,7 +329,7 @@ header {
     }
 
     .main {
-        margin-top: 170px;
+        margin-top: 176px;
     }
 
     .title {
@@ -359,4 +359,10 @@ header {
         padding: 10px;
         font-size: 1rem;
     }
+}
+@media screen and (max-width:550px) {
+    .head-year{
+        font-size: 0.8rem;
+    }
+    
 }
