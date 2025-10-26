@@ -302,12 +302,34 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+
+}
+
+.table-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(145deg, #e6f4ff, #d0e8ff, #b3daff);
+    padding: 20px;
+    color: #084b83;
+
 }
 
 @media screen and (max-width:670px) {
     header {
         padding: 10px;
+    }
+
+    .hero {
+        margin-top: 80px;
+    }
+
+    .hero-1 {
+        margin-top: 118px;
+    }
+
+    .main {
+        margin-top: 150px;
     }
 
     .title {
@@ -328,7 +350,8 @@ header {
 
     }
 
-    .hero>.head,.table-head {
+    .hero>.head,
+    .table-head {
         font-size: 1rem;
     }
 
