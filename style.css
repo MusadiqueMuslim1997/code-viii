@@ -328,7 +328,7 @@ header {
 
     }
 
-    .hero>.head {
+    .hero>.head,.table-head {
         font-size: 1rem;
     }
 
