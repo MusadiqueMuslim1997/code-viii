@@ -257,6 +257,7 @@ header {
     border-radius: 50%;
     cursor: pointer;
     transition: transform 1s ease;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
 }
 
