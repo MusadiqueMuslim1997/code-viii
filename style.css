@@ -61,7 +61,7 @@ header {
 
     text-align: center;
     text-transform: uppercase;
-    color: #b30606;
+    color: red;
     font-family: philosopher, sans-serif;
     font-size: 2.5rem;
     font-weight: bolder;
@@ -72,7 +72,7 @@ header {
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: #b30606;
+    color: red;
     ;
     font-family: philosopher, sans-serif;
     font-size: 3rem;
@@ -101,7 +101,7 @@ header {
     padding: 10px;
     background-color: white;
     border: 4px solid;
-    border-image: linear-gradient(90deg, #0682b3, darkred) 1;
+    border-image: linear-gradient(90deg, #0682b3, red) 1;
     border-radius: 12px;
     color: #0682b3;
     border-radius: 5px;
@@ -114,7 +114,7 @@ header {
 
 .red {
     font-family: philosopher, sans-serif;
-    color: #b30606;
+    color: red;
     ;
 }
 
@@ -155,7 +155,7 @@ header {
     position: fixed;
     z-index: 1;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: #b30606;
+    background: linear-gradient(45deg, #ff0000, #8b0000);
 
 }
 
@@ -170,7 +170,7 @@ header {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 1.5rem;
-    color: white;
+    color: #ffffff;
 }
 
 .head-year {
@@ -194,15 +194,16 @@ header {
     border-bottom-left-radius: 40px;
     border-top-right-radius: 40px;
     /* border-radius: 1px solid gray; */
-    background-color: yellow;
+    background: linear-gradient(45deg, #fff700, #ffcc00, #ff9900);
     text-transform: capitalize;
     cursor: pointer;
-    color: black;
-   font-size: 1rem;
-   text-decoration: none;
+    color: #3b3b3b;
+    font-size: 1rem;
+    text-decoration: none;
 
 }
-button{
+
+button {
     border: none;
 }
 
@@ -255,7 +256,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .bio-data-img>img {
@@ -264,8 +265,8 @@ button{
     border-radius: 50%;
     cursor: pointer;
     transition: transform 1s ease;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
 
 }
 
@@ -295,6 +296,7 @@ button{
     gap: 10px;
     padding: 20px 40px;
     background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    
 
 
 }
@@ -324,15 +326,18 @@ button{
     padding: 20px;
     color: #084b83;
     /* border: 1px solid #0682b3; */
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
+
 @media screen and (max-width:1140px) {
-    .title{
+    .title {
         font-size: 2.3rem;
     }
 }
+
 @media screen and (max-width:670px) {
     header {
         padding: 10px;
@@ -373,7 +378,7 @@ button{
         font-size: 1rem;
     }
 
-    
+
 }
 
 @media screen and (max-width:550px) {
