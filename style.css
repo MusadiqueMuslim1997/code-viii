@@ -5,14 +5,19 @@
     font-family: philosopher, sans-serif;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 header {
     width: 100%;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 20px;
     background-color: #f8f9fa;
-    padding: 5px 40px;
+    padding: 20px 40px;
     text-transform: uppercase;
     top: 0;
     position: fixed;
@@ -29,51 +34,57 @@ header {
 }
 
 @keyframes rotateLogoHorizontal {
-  0% {
-    transform: rotateY(0deg);
-  }
-  40% {
-    transform: rotateY(360deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    40% {
+        transform: rotateY(360deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
 }
 
 .logo>img {
-    width: 80px;
+    width: 75px;
     animation: rotateLogoHorizontal 5s linear infinite;
-  transform-style: preserve-3d;
-  perspective: 800px;
+    transform-style: preserve-3d;
+    perspective: 800px;
 }
 
 .title {
     /* width: 80%; */
-   
+
     align-items: center;
-    
+
     text-align: center;
     text-transform: uppercase;
-    color: red;
-    font-family:philosopher, sans-serif;
+    color: #b30606;
+    font-family: philosopher, sans-serif;
     font-size: 2.5rem;
     font-weight: bolder;
     /* display: none; */
 }
-.title-1{
-     align-items: center;
+
+.title-1 {
+    align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: red;
-    font-family:philosopher, sans-serif;
+    color: #b30606;
+    ;
+    font-family: philosopher, sans-serif;
     font-size: 3rem;
     font-weight: bolder;
     display: none;
 }
-.span{
+
+.span {
     font-family: philosopher, sans-serif;
     color: #0682b3;
 }
+
 .campus {
     width: 19%;
 
@@ -81,7 +92,7 @@ header {
     align-items: center;
     justify-content: right;
     text-align: right;
-    
+
     animation: slideFromRight 1s ease-in-out;
     /* background-color: brown; */
 }
@@ -95,23 +106,29 @@ header {
     font-weight: 700;
     font-family: philosopher, sans-serif;
     animation: rotateLogoHorizontal 5s linear infinite;
-  transform-style: preserve-3d;
-  perspective: 800px;
+    transform-style: preserve-3d;
+    perspective: 800px;
 }
-.red{
+
+.red {
     font-family: philosopher, sans-serif;
-    color: red;
+    color: #b30606;
+    ;
 }
+
+
 @keyframes slideFromRight {
-   0% {
-    transform: rotateY(0deg);
-  }
-  40% {
-    transform: rotateY(360deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    40% {
+        transform: rotateY(360deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -126,23 +143,25 @@ header {
 
 .hero {
     width: 100%;
-
+    margin-top: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 88px;
+    flex-wrap: wrap;
+    margin-top: 85px;
     top: 0;
     position: fixed;
     z-index: 1;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: #0682b3;
+    background-color: #b30606;
+
 }
 
 .head {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     gap: 10px;
     padding: 10px;
     text-align: center;
@@ -151,109 +170,139 @@ header {
     font-size: 1.5rem;
     color: white;
 }
-.head-year{
+
+.head-year {
     font-size: 1rem;
     display: flex;
     align-self: center;
     justify-content: center;
-   
+
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button>button {
+    padding: 10px;
+    border: none;
+    border-radius: 1px solid gray;
+    background-color: yellow;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.hero-1 {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+
+.button>button:active {
+    background-color: green;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    margin-top: 185px;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 40px;
+    background-color: #066eb3;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
 }
 
 .bio-data {
     width: 100%;
-    margin-top: 138px;
-    background-color: #b3ecff;
-    transition: 1s;
-    color: black;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-   
-   
+}
 
+.bio-data-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-data-img>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 1s ease;
 
 }
 
-.bio-data:hover {
-    background-color: #4fc0e6;
-    transition: 1s;
+.bio-data-img>img:hover {
+    transform: scale(1.2);
+    /* Zoom effect */
+}
+
+.bio-data-context {
+    width: 100%;
+
+    text-align: center;
 }
 
 .data {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    font-size: 1.2rem;
-}
-
-.detail {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.detail-1,
-.detail-2 {
-    width: 45%;
     text-transform: capitalize;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
+    color: white;
+    background-color: ;
 }
-
-.table {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: aliceblue;
-    padding: 20px;
-   
-}
-.blue{
-    color: darkcyan;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.print.print{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    padding-bottom: 25px;
-}
-
 
 @media screen and (max-width:670px) {
-    header{
+    header {
         padding: 10px;
     }
-    .title{
+
+    .title {
         display: none;
     }
-    .title-1{
+
+    .title-1 {
         display: block;
     }
-    .logo>img{
+
+    .logo>img {
         width: 60px;
     }
-    .campus>span{
-        padding: 8px;
+
+    .campus>span {
+        padding: 6px;
+        font-size: 0.6rem;
+
+    }
+
+    .hero>.head {
+        font-size: 1rem;
+    }
+
+    .button>button {
+        padding: 6px;
+        font-size: 0.6rem;
     }
 }
