@@ -100,7 +100,9 @@ header {
 .campus>span {
     padding: 10px;
     background-color: white;
-    border: 1px solid gray;
+    border: 4px solid;
+    border-image: linear-gradient(90deg, #0682b3, darkred) 1;
+    border-radius: 12px;
     color: #0682b3;
     border-radius: 5px;
     font-weight: 700;
