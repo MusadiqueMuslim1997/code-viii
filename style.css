@@ -189,15 +189,21 @@ header {
 }
 
 .button>button {
-    padding: 10px;
+    padding: 10px 60px;
     border: none;
-    border-radius: 1px solid gray;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    /* border-radius: 1px solid gray; */
     background-color: yellow;
     text-transform: capitalize;
     cursor: pointer;
     color: black;
-    border-radius: 5px;
+   font-size: 1rem;
+   text-decoration: none;
 
+}
+button{
+    border: none;
 }
 
 .hero-1 {
@@ -249,6 +255,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .bio-data-img>img {
@@ -257,7 +264,8 @@ header {
     border-radius: 50%;
     cursor: pointer;
     transition: transform 1s ease;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
 
 }
 
@@ -365,10 +373,7 @@ header {
         font-size: 1rem;
     }
 
-    .button>button {
-        padding: 10px;
-        font-size: 1rem;
-    }
+    
 }
 
 @media screen and (max-width:550px) {
