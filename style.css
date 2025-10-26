@@ -191,6 +191,7 @@ header {
 .button>button {
     padding: 10px 60px;
     border: none;
+    outline: none;
     border-bottom-left-radius: 40px;
     border-top-right-radius: 40px;
     /* border-radius: 1px solid gray; */
@@ -203,9 +204,14 @@ header {
 
 }
 
-button {
-    border: none;
+.button>button:active {
+    
+    background: linear-gradient(45deg, #ff9900, #ffcc00, #fff700);
+  transform: scale(0.97);
+   color: #fff;
+    
 }
+
 
 .hero-1 {
     width: 100%;
@@ -222,10 +228,6 @@ button {
 
 }
 
-.button>button:active {
-    background-color: green;
-    color: white;
-}
 
 .main {
     width: 100%;
