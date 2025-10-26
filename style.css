@@ -312,7 +312,7 @@ header {
     background: linear-gradient(145deg, #e6f4ff, #d0e8ff, #b3daff);
     padding: 20px;
     color: #084b83;
-    border: 1px solid #0682b3;
+    /* border: 1px solid #0682b3; */
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
