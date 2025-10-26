@@ -228,7 +228,8 @@ header {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px 40px;
-    background-color: #066eb3;
+    background: linear-gradient(135deg, #066eb3, #00c6ff);
+
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 
@@ -271,7 +272,37 @@ header {
 .data {
     text-transform: capitalize;
     color: white;
-    background-color: ;
+
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 40px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+
+
+}
+
+.table-head {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: #0682b3;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.table-print {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
 }
 
 @media screen and (max-width:670px) {
