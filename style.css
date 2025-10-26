@@ -320,7 +320,11 @@ header {
     border-bottom-right-radius: 20px;
 
 }
-
+@media screen and (max-width:1140px) {
+    .title{
+        font-size: 2.3rem;
+    }
+}
 @media screen and (max-width:670px) {
     header {
         padding: 10px;
