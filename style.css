@@ -365,7 +365,7 @@ header {
 }
 
 @media screen and (max-width:670px) {
-    header {
+    header,.button {
         padding: 10px;
     }
 
@@ -410,6 +410,10 @@ header {
 @media screen and (max-width:550px) {
     .head-year {
         font-size: 0.8rem;
+    }
+    
+    .button>.button{
+        width: 150px;
     }
 
 }
