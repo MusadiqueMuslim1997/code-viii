@@ -7,6 +7,7 @@
 
 body {
     background-color: whitesmoke;
+    
 }
 
 header {
@@ -375,10 +376,11 @@ header {
 
     .hero-1 {
         margin-top: 118px;
+       
     }
 
     .main {
-        margin-top: 176px;
+        margin-top: 190px;
     }
 
     .title {
