@@ -196,7 +196,7 @@ header {
     border-bottom-left-radius: 40px;
     border-top-right-radius: 40px;
     /* border-radius: 1px solid gray; */
-    background: linear-gradient(45deg, #fff700, #ffcc00, #ff9900);
+    background: linear-gradient(45deg, #ffd900, #ffb300, #ff8800);
     text-transform: capitalize;
     cursor: pointer;
     color: white;
@@ -230,10 +230,12 @@ header {
     font-size: 1rem;
     text-decoration: none;
 }
-.button>.reset:active{
-     background: linear-gradient(45deg, #ff6666, #ff1a1a, #e60000);
-  
+
+.button>.reset:active {
+    background: linear-gradient(45deg, #ff6666, #ff1a1a, #e60000);
+
 }
+
 .hero-1 {
     width: 100%;
     margin-top: 130px;
