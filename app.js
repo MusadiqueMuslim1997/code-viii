@@ -31,3 +31,9 @@ function myFunction() {
     }
   });
 }
+function reset(){
+  let print = document.getElementById('print');
+   let num = document.getElementById('a');
+    num.innerHTML = "";
+  print.innerHTML = "";
+}
